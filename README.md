@@ -1,6 +1,11 @@
 # OnlineUserWebApplication
 This application displays the IPaddress of the user as soon as they land on the webpage, and the data is auto incremented with each user that lands on the page. This also shows the geolocation and time logged on in a table format, also shows the marker location of the user on a map created using mapbox api.
 
+Prerequisites:
+1) Visual Studio 2019
+2) mysql Workbench
+3) Knowledge on ngrok
+
 All the code is in a single file index.php
 
 To get the output, connection to ngrok must be established as without a public endpoint the IPaddress returned will be '1'.
@@ -17,3 +22,5 @@ Objectives achieved:
 Objectives not achieved:
 1) Auto increment of table on all user interfaces when a new user logs on. (Ajax required)
 2) Automatically displaying multiple markers of users to all the users logged on. (Ajax required)
+
+Note: The same assignment has been attempted using python Flask framework, but faced a few drawbacks with map updation and marker placement.I have also pushed the same folder with the name of 'trialPython' which has the above mentioned python code.
