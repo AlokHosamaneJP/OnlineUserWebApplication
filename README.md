@@ -4,7 +4,7 @@ This application displays the IPaddress of the user as soon as they land on the 
 All the code is in a single file index.php
 
 To get the output, connection to ngrok must be established as without a public endpoint the IPaddress returned will be '1'.
-Connect to ngrok using the following command in a shell: ,/ngrok http 'YOUR BROWSER PORT NUMBER'.
+Connect to ngrok using the following command in a shell: ./ngrok http 'YOUR BROWSER PORT NUMBER'.
 
 To store the data, I have used mysql database. A simple table that consists of headers: IPaddress, Location, Timelogged in.
 
